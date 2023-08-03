@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_6"
+        android:layout_marginTop="31dp"
+        />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_below="@id/imgWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/kadwa"
+        />
+
+    <TextView
+        android:id="@+id/txtDescribe"
+        android:layout_below="@id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:text="HORE (Hospital Reservation) is an application designed for practical and efficient online ordering of medical care service reservations at various hospitals"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/kurale"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/txtDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#00B2C8"
+        android:text="Sign In"
+        android:textSize="25sp"
+        android:fontFamily="@font/krub_semibold"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_below="@id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#00B2C8"
+        android:text="Sign Up"
+        android:textSize="25sp"
+        android:fontFamily="@font/krub_semibold"
+        />
+
+</RelativeLayout>

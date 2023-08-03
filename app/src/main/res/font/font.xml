@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:font="@font/kadwa"
+        />
+
+    <font
+        android:fontStyle="normal"
+        android:font="@font/krub_semibold"
+        />
+
+    <font
+        android:fontStyle="normal"
+        android:font="@font/kurale"
+        />
+
+    <font
+        android:fontStyle="normal"
+        android:font="@font/laila_bold"
+        />
+
+    <font
+        android:fontStyle="normal"
+        android:font="@font/lexend"
+        />
+
+</font-family>
